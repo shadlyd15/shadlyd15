@@ -13,9 +13,7 @@
 [![Gmail](https://img.shields.io/badge/%20-Send%20Mail-black?color=222244&labelColor=000000&logo=gmail&logoColor=f5f7fe)](mailto:shadlyd15@gmail.com?subject=From%20GitHub&&body=Hi,%20there.%20Found%20you%20on%20GitHub!%20Let's%20talk%20about...)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shadlyd15&layout=compact)](https://github.com/shadlyd15)
 
 <!--
-
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=shadlyd15&layout=compact)](https://github.com/shadlyd15)
 -->
