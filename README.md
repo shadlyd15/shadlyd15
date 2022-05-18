@@ -1,5 +1,3 @@
-[<img align="right" width="400" src="https://github-readme-stats.vercel.app/api?username=shadlyd15&&show_icons=true&theme=graywhite&count_private=true" alt="shadlyd15's Github Stats"/>](https://github.com/shadlyd15)
-
 ## Hello! I am Shadly Salahuddin. 
 > Werkstudent @ Secusmart GmbH <br>
 > Master's Student @ Bergische Universität Wuppertal <br>
