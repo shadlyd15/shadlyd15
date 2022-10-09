@@ -1,6 +1,6 @@
 ## Hello! I am Shadly Salahuddin. 
 
-> Werkstudent @ Gira Giersiepen GmbH <br>
+
 > Master's Student @ Bergische Universität Wuppertal <br>
 
 
