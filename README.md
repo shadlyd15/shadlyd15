@@ -1,8 +1,7 @@
 ## Hello! I am Shadly Salahuddin. 
 
-<!--> Werkstudent @ Secusmart GmbH <br>
+> Werkstudent @ Gira Giersiepen GmbH <br>
 > Master's Student @ Bergische Universität Wuppertal <br>
--->
 
 
 [![Website Website](https://img.shields.io/badge/%20-Website-black?color=222244&labelColor=000000&logo=github&logoColor=f5f7fe)](https://shadlyd15.github.io/)
