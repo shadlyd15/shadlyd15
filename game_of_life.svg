@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <style>
+    .cell {
+      stroke: black;
+      stroke-width: 1;
+    }
+  </style>
+
+  <script><![CDATA[
+    const size = 40; // size of each cell
+    const rows = 20; // number of rows
+    const cols = 20; // number of columns
+
+    function createCell(x, y, isAlive) {
+      const cell = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+      cell.setAttribute('x', x * size);
+      cell.setAttribute('y', y * size);
+      cell.setAttribute('width', size);
+      cell.setAttribute('height', size);
+      cell.setAttribute('class', 'cell');
+      cell.setAttribute('fill', isAlive ? randomColor() : 'white');
+      return cell;
+    }
+
+    function randomColor() {
+      const letters = '0123456789ABCDEF';
+      let color = '#';
+      for (let i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+      }
+      return color;
+    }
+
+    function createGrid() {
+      const grid = [];
+      for (let y = 0; y < rows; y++) {
+        const row = [];
+        for (let x = 0; x < cols; x++) {
+          const cell = createCell(x, y, Math.random() > 0.5);
+          row.push(cell);
+          document.documentElement.appendChild(cell);
+        }
+        grid.push(row);
+      }
+      return grid;
+    }
+
+    function updateGrid(grid) {
+      const newGrid = [];
+      for (let y = 0; y < rows; y++) {
+        const newRow = [];
+        for (let x = 0; x < cols; x++) {
+          const aliveNeighbors = countAliveNeighbors(grid, x, y);
+          const isAlive = grid[y][x].getAttribute('fill') !== 'white';
+          let newCell;
+          if (isAlive && (aliveNeighbors === 2 || aliveNeighbors === 3)) {
+            newCell = createCell(x, y, true);
+          } else if (!isAlive && aliveNeighbors === 3) {
+            newCell = createCell(x, y, true);
+          } else {
+            newCell = createCell(x, y, false);
+          }
+          newRow.push(newCell);
+          document.documentElement.appendChild(newCell);
+          document.documentElement.removeChild(grid[y][x]);
+        }
+        newGrid.push(newRow);
+      }
+      return newGrid;
+    }
+
+    function countAliveNeighbors(grid, x, y) {
+      let count = 0;
+      for (let i = -1; i <= 1; i++) {
+        for (let j = -1; j <= 1; j++) {
+          if (i !== 0 || j !== 0) {
+            const neighborX = (x + i + cols) % cols;
+            const neighborY = (y + j + rows) % rows;
+            if (grid[neighborY][neighborX].getAttribute('fill') !== 'white') {
+              count++;
+            }
+          }
+        }
+      }
+      return count;
+    }
+
+    let grid = createGrid();
+    setInterval(() => {
+      grid = updateGrid(grid);
+    }, 500);
+  ]]></script>
+</svg>
