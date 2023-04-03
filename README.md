@@ -5,4 +5,23 @@
 [![LinkedIn LinkedIn](https://img.shields.io/badge/%20-LinkedIn-black?color=222244&labelColor=000000&logo=LinkedIn&logoColor=f5f7fe)](https://www.linkedin.com/in/shadlyd15/)
 [![Gmail](https://img.shields.io/badge/%20-Send%20Mail-black?color=222244&labelColor=000000&logo=gmail&logoColor=f5f7fe)](mailto:shadlyd15@gmail.com?subject=From%20GitHub&&body=Hi,%20there.%20Found%20you%20on%20GitHub!%20Let's%20talk%20about...)
 
-<iframe src="https://shadlyd15.github.io/Solarium/" width="100%" height="300px"></iframe>
+<style>
+  .cool-animation {
+    animation: spin 2s linear infinite;
+  }
+
+  @keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
+<div class="cool-animation">
+  <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="50" cy="50" r="40" stroke="#ffffff" stroke-width="10" fill="none"/>
+  </svg>
+</div>
