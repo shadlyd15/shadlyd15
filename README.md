@@ -4,16 +4,7 @@
 [![Blog Blog](https://img.shields.io/badge/%20-Blog-black?color=222244&labelColor=000000&logo=jekyll&logoColor=f5f7fe)](https://shadlyd15.github.io/blog/)
 [![LinkedIn LinkedIn](https://img.shields.io/badge/%20-LinkedIn-black?color=222244&labelColor=000000&logo=LinkedIn&logoColor=f5f7fe)](https://www.linkedin.com/in/shadlyd15/)
 [![Gmail](https://img.shields.io/badge/%20-Send%20Mail-black?color=222244&labelColor=000000&logo=gmail&logoColor=f5f7fe)](mailto:shadlyd15@gmail.com?subject=From%20GitHub&&body=Hi,%20there.%20Found%20you%20on%20GitHub!%20Let's%20talk%20about...)
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Earth Rotation</title>
-   <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat+Alternates&family=Raleway&display=swap" rel="stylesheet"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-<link rel="stylesheet" href="./style.css">
 
-</head>
-<body>
 <!-- partial:index.partial.html -->
 <!-- Let's have some comets flyings around :) -->
 <div class="comet-rain">
@@ -131,8 +122,3 @@
 	
 	</div>
 </div>
-<!-- partial -->
-  <script  src="./script.js"></script>
-
-</body>
-</html>
