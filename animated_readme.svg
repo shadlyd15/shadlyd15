@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+  <style>
+    circle {
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% {
+        r: 10;
+        opacity: 1;
+      }
+      100% {
+        r: 20;
+        opacity: 0;
+      }
+    }
+  </style>
+  <circle cx="100" cy="50" r="10" fill="blue"/>
+  <script>
+    // Add JavaScript code here if needed
+  </script>
+</svg>
