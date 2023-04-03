@@ -7,6 +7,6 @@
 
 <div align="center">
   <a href="https://shadlyd15.github.io/Solarium/">
-    <img src="./animated_readme.svg">
+    <img src="./dance.gif">
   </a>
 </div>
