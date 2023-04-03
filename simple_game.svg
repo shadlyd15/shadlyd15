@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+  <style>
+    text {
+      font-family: sans-serif;
+      font-size: 24px;
+    }
+  </style>
+  <rect x="50" y="25" width="100" height="50" fill="blue" onclick="incrementCounter()" />
+  <text x="50" y="60" fill="white" id="counter">0</text>
+  <script><![CDATA[
+    var count = 0;
+    function incrementCounter() {
+      count++;
+      document.getElementById('counter').textContent = count;
+    }
+  ]]></script>
+</svg>
