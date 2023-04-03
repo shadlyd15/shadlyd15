@@ -20,3 +20,9 @@
     100% { color: violet; }
   }
 </style>
+
+<script>
+  window.addEventListener("load", function() {
+    document.getElementById("my-animation").classList.add("animate");
+  });
+</script>
