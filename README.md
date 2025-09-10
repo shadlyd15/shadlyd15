@@ -1,10 +1,6 @@
 ## Hello! I am Shadly Salahuddin. 
 
-<div align="center">
-  <a href="https://shadlyd15.github.io/Solarium/">
-    <img src="./dance.gif">
-  </a>
-</div>
+# Embedded Systems Engineer with nearly a decade of experience in RTOS, Embedded Linux, and Baremetal low-level system programming.
 
 [![Website Website](https://img.shields.io/badge/%20-Website-black?color=222244&labelColor=000000&logo=github&logoColor=f5f7fe)](https://shadlyd15.github.io/)
 [![Blog Blog](https://img.shields.io/badge/%20-Blog-black?color=222244&labelColor=000000&logo=jekyll&logoColor=f5f7fe)](https://shadlyd15.github.io/blog/)
