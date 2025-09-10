@@ -1,7 +1,5 @@
 ## Hello! I am Shadly Salahuddin. 
 
-Embedded Systems Engineer with nearly a decade of experience in RTOS, Embedded Linux, and Baremetal low-level system programming.
-
 [![Website Website](https://img.shields.io/badge/%20-Website-black?color=222244&labelColor=000000&logo=github&logoColor=f5f7fe)](https://shadlyd15.github.io/)
 [![Blog Blog](https://img.shields.io/badge/%20-Blog-black?color=222244&labelColor=000000&logo=jekyll&logoColor=f5f7fe)](https://shadlyd15.github.io/blog/)
 [![LinkedIn LinkedIn](https://img.shields.io/badge/%20-LinkedIn-black?color=222244&labelColor=000000&logo=LinkedIn&logoColor=f5f7fe)](https://www.linkedin.com/in/shadlyd15/)
